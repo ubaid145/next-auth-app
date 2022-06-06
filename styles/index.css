@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-landing-page {
+    @apply min-h-screen bg-gradient-to-b from-blue-300 to-blue-600 text-gray-800 antialiased px-4 py-6 flex flex-col justify-center sm:py-12;
+}
+
+.content {
+    @apply min-h-screen bg-black text-white antialiased px-4 py-6 flex flex-col justify-center;
+}
+
+.content-dimensions {
+    @apply relative py-3 sm:max-w-xl mx-auto text-center w-2/5;
+}
+
+.landing-page-text {
+    @apply mt-4 font-bold text-white text-[30px] cursor-pointer;
+}
+
+.form-display {
+    @apply relative bg-white shadow-md sm:rounded-lg text-left;
+}
+
+.form-top-style {
+    @apply h-4 bg-blue-600 rounded-t-md w-full;
+}
+
+.form-padding {
+    @apply py-6 px-8;
+}
+
+.input-style {
+    @apply  border w-full h-3 px-2 py-4 text-black hover:outline-none focus:outline-none focus:ring-1 focus:ring-blue-600 rounded-full text-sm mt-1;
+}
+
+.label-style {
+    @apply block font-normal text-black text-sm py-2;
+}
+
+.button-container {
+    @apply flex justify-between items-baseline;
+}
+
+.button-style {
+    @apply border w-full mt-4 bg-blue-600 text-white py-2 px-6 rounded-full;
+}
+
+.forgot-password-container {
+    @apply relative shadow-md sm:rounded-lg text-right;
+}
+
+.forgot-password-button {
+    @apply text-[13px] text-white;
+}
+
+.span-text {
+    @apply text-[15px] text-white;
+}
+
+.span-button {
+    @apply text-blue-600 text-[15px];
+}
+
+.span-reset-password {
+    @apply text-2xl text-white;
+}
+
+.home-wrapper {
+    @apply min-h-screen bg-black;
+}
+
+.home-container{
+    @apply text-[30px] py-5 mb-7 text-center text-white;
+}
+
+.home-content {
+    @apply pt-4 pl-4 text-center;
+}
+
+.home-data-style {
+    @apply block text-white;
+}
+
+.text-size {
+    @apply text-[15px];
+}
+
+.span-title {
+    @apply text-[25px] text-white;
+}

@@ -1,0 +1,30 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstName": "test",
+      "lastName": "testing",
+      "email": "testing@technowis.co",
+      "password": "Test@123",
+      "dateOfBirth": "1997-09-12"
+    },
+    {
+      "firstName": "Mandar",
+      "lastName": "Ch",
+      "email": "test78@gmail.com",
+      "dateOfBirth": "1999-03-03",
+      "password": "Test@12345",
+      "id": 2
+    }
+  ],
+  "pendingUsers": [
+    {
+      "firstName": "Ubaid Ur ",
+      "lastName": "Rehman",
+      "dateOfBirth": "1996-06-26",
+      "email": "test@gmail.com",
+      "password": "Test@12345",
+      "id": 1
+    }
+  ]
+}
